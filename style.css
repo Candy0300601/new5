@@ -1,0 +1,322 @@
+*
+{
+     margin: 0;
+     padding: 0;
+}
+body{
+      background-color: rgb(9, 9, 35);
+      color: white;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      /* background-image: url("/images/new11.png"); */
+   
+      background-size: cover;
+      background-repeat: no-repeat;
+}
+nav
+{
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      background-color: rgb(26, 22, 87);
+      /* background-color:rgb(22, 22, 92); */
+      height: 4vw;
+      width: 100vw;
+      margin-top: 1.8vw;
+}
+nav ul{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(88, 8, 63);
+      height: 3vw;
+       position: absolute;
+       right: 3vw;
+       /* top:30px; */
+      
+}
+nav ul li{
+      list-style-type: none;
+      margin: 0.5vw;
+     
+}
+nav ul a{
+      text-decoration: none;
+      color: white;
+}
+nav ul a:hover
+{
+      color: rgb(197, 95, 210);
+}
+
+h2{
+       font-size: 1.8vw;
+}
+
+.left
+{
+    
+   font-size: 1.5vw;
+   position:absolute;
+   left: 1.2vw;
+
+}
+
+a{
+      font-size: 1.2vw;
+}
+
+section{
+      display: flex;
+     justify-content: space-around;
+     /*  */
+     
+}
+
+.firstsection 
+{
+      margin-top:3.5vw;
+      width: 100%;
+      display: flex;
+      justify-content: space-evenly;
+     
+    
+}
+.leftsection
+{
+      width: 35vw;
+      /* background-color: rgb(75, 28, 120); */
+     padding: 1.2vw;
+      /* background-image: url("/images/—Pngtree—web\ development\ concept\ flat\ design_5455391.png");
+      background-size: cover; */
+      /* color: rgb(12, 11, 11); */
+      height: 32vw;
+      margin-top: 5vw;
+      font-size: 2vw;
+    
+     
+}
+.rightsection
+{
+      width: 35vw;
+      /* background-color: rgb(75, 28, 120); */
+       /* background-image: url("image/section3.png");
+      background-size: cover; */
+     
+      height: 35vw;
+     
+}
+.namecol
+{
+     color: rgb(149, 66, 182);
+}
+
+#element
+{
+     color: rgb(149, 66, 182);
+}
+.section{
+       margin-left: 2vw;
+}
+
+hr{
+      border: 0;
+      background-color: rgba(125, 125, 224,0.5);
+      height: 0.3px;
+      width: 80%;
+     display: flex;
+     position:absolute;
+    left: 4vw;
+  
+}
+
+.secondsection
+{
+      
+      height: 12vw;
+    
+     display: flex;
+     max-width: none;
+     margin-top: 2vw;
+    
+     
+}
+/* .secondsection h2{
+       position:absolute;
+       left: 60px;
+      width: 80vw;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+     
+} */
+
+ .about
+{
+    /* margin-top: 35px; */
+    font-size: 1.5vw;
+    margin-left: 1vw;
+    width: 60vw;
+    /* width:70px */
+    padding: 1vw;
+    margin-top: 1vw;
+    
+  
+}
+
+ 
+ .thirdsection
+ {
+      
+      height: 20vw;
+     display: flex;
+     max-width: none;
+     margin-top: 1.2vw;
+   
+   
+     
+ }
+ .thirdsection h2{
+      position: relative;
+      left: 2vw;
+}
+ .pic3
+ {
+       /* width: 400px; */
+       width: 38vw;
+       /* background-image: url("images/edu3.png");
+       background-size: cover; */
+       margin-left: 50px;
+       position: relative;
+       bottom: 15px;
+ }
+ .education
+ {
+      position: relative;
+    left: 3.5vw;
+ }
+
+ .fourthsection
+ {
+         
+      height: 20vw;
+     display: flex;
+    width: 105vw;
+    /* max-width: none; */
+     margin-top: 2vw;
+     
+ }
+
+ .techskill
+ {
+       width: 45vw;
+ }
+ .pic4
+ {
+      
+      /* width: 380px; */
+      /* height: 280px; */
+      width: 28vw;
+      height: 18vw;
+      position: absolute;
+      /* bottom: 140px; */
+      left: 66vw;
+      /* margin-left: 2vw; */
+      /* background-color: aqua; */
+
+      /* background-image: url("/images/tech2.png");
+      background-size: cover; */
+    
+    /* background-color: rgb(158, 136, 179); */
+ }
+ 
+ 
+ .fifthhsection
+ {
+          height: 30vw;
+          display: flex;
+          max-width: none;
+          margin-top: 2vw;
+        
+     
+ }
+ .project
+ {
+      position: relative;
+      left: 5vw;
+ }
+
+ .project a{
+       text-decoration: none;
+       color: rgb(42, 108, 165);
+       font-size: 1.4vw;
+ }
+
+ .project a:hover
+ {
+      color: blueviolet;
+ }
+ 
+
+.sixthsection
+{
+       display: flex;
+       
+}
+.lang
+{
+      position: relative;
+      left: 4vw;
+      height: 10vw;
+      width: 42vw;
+      top: 3vw;
+}
+
+.sixthsection h2{
+
+      position: relative;
+      top: 2vw;
+}
+
+ 
+.pic6
+{
+      width: 40vw;
+      height: 12vw;
+      /* background-image: url("/images/lang1.png");
+      background-size: cover; */
+    
+}
+
+
+
+ footer
+ {
+       height: 15vw;
+       background-color: rgb(16, 16, 29);
+       
+ }
+
+ .contact
+ {
+       width:100vw ;
+       height: 10vw;
+      margin-top: 2vw;
+     
+ }
+ .contact h2{
+       margin-left: 20px;
+       display: flex;
+       justify-content: center;
+ }
+ .contact ul{
+       display: flex;
+       justify-content: space-evenly;
+       
+ }
+ .contact ul li{
+      list-style-type:none;
+ }
+
+ .end 
+ {
+       display: flex;
+       justify-content: center;
+ }
